@@ -1,0 +1,112 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background-color: #e5e9fb;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 900px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#leer > p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#iner {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#iner > button {
+    width: 120px;
+    height: 60px;
+    margin-left: 10px;
+    background-color: #111827;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#iner > button:hover {
+    background-color: #333;
+}
+
+#iner > input {
+    height: 60px;
+    width: 490px;
+    margin-left: 100px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#iner > input::placeholder {
+    font-size: 20px;
+    color: #B3B8D8;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: left;
+    size: 25px;
+    width: 80%;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-container label {
+    font-size: 14px;
+    color: #333;
+}
