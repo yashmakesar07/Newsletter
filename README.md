@@ -15,6 +15,8 @@ FRONTEND
 **Learning**
 In this frontend challenge, you'll learn how to build a real-world UI component using HTML & CSS. You'll also learn how to use CSS Flexbox to lay out the component and make it responsive. This frontend challenge is a great opportunity to improve your HTML & CSS skills by building a beginner-friendly frontend project. So what are you waiting for?
 
+**Deployment**
+https://sunny-daifuku-379556.netlify.app
 **Requirements**
 
 - The Newsletter Card Component should have an email input field for the user to enter their email address and a subscribe button.
